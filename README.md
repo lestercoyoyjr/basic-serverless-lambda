@@ -12,3 +12,15 @@ When using '$ serverless create --template aws-nodejs' don't forget to:
 
 This is the template for github actions:
 https://github.com/serverless/github-action
+
+Probably, you will have an error like this one
+
+```
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for ...
+```
+
+So, follow this guide in order to access with token instead of password
+
+https://collabnix.com/how-to-fix-support-for-password-authentication-was-removed-error-in-github/
